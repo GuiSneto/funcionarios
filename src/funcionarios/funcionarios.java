@@ -13,7 +13,7 @@ public class funcionarios {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int hourswork = 0, cont1 = 0 , cont2 = 0, cont0 = 0, totalhours = 0;
+		int hourswork = 0, cont1 = 0 , cont2 = 0, cont0 = 0, totalhours = 0, cont4 =0, opcao;
 		double valueforhour = 0, valhours=0;
 		char outro;
 		
@@ -57,6 +57,21 @@ public class funcionarios {
 	        else {
 	        	cont0 = + 1;
 	        }
+	        
+	        System.out.println("");
+	        
+	        while (cont4 == 0) {
+	        	 System.out.println("MENU");
+	        	 System.out.println("1 - Total de horas trabalhadas");
+	        	 System.out.println("2 - Custo total");
+	        	 System.out.println("3 - Sair");
+	        	 System.out.printf("Digite uma opcao: ");
+	        	 opcao = sc.nextInt();
+	        	 System.out.println("");
+	        	 
+	        	 
+	        }
+	        
 		}   
 	     
 	       
