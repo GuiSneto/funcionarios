@@ -55,6 +55,8 @@ public class funcionarios {
 	        	cont0 = 0;
 	        }
 	        else {
+	        	totalhours = totalhours + hourswork;
+	        	valhours = valhours + valueforhour;
 	        	cont0 = + 1;
 	        }
 	        
@@ -68,6 +70,19 @@ public class funcionarios {
 	        	 System.out.printf("Digite uma opcao: ");
 	        	 opcao = sc.nextInt();
 	        	 System.out.println("");
+	        	 
+	        	 if (opcao == 1) {
+	        		 System.out.println("Total de horas = " + totalhours);
+	        		 System.out.println("");
+	        		 
+	        	 }
+	        	 else if (opcao == 2) {
+	        		System.out.printf("Custo total = %.2f%n", totalhours*valhours);
+	        		System.out.println("");
+	        	 }
+	        	 else if (opcao == 3) {
+	        		 cont4 = +1;
+	        	 }
 	        	 
 	        	 
 	        }
